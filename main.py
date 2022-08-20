@@ -1,13 +1,11 @@
-from kivy.app import App
-from kivy.uix.button import Button
+from kivymd.app import MDApp
+from kivymd.uix.label import MDLabel
 
-class Application(App):
+
+class MainApp(MDApp):
     def build(self):
-        my_button = Button()
+        return MDLabel(text="This is education project. Thanks to Oleg Shpagin for his lessons on Youtube https://www.youtube.com/watch?v=fmkX_3ynHsc", halign="center")
 
 
 if __name__ == '__main__':
-    Application().run()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-#
+    MainApp().run()
