@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Bot
+title = My first project on KivyMD
 
 # (str) Package name
-package.name = bot
+package.name = first_kivy_project
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.bot
+package.domain = org.Leonid-TsC
 
 # (str) Source code where the main.py live
 source.dir = .
