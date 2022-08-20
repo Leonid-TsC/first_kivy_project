@@ -1,3 +1,4 @@
+#This is education project. Thanks to Oleg Shpagin for his lessons on Youtube https://www.youtube.com/watch?v=fmkX_3ynHsc
 from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel
 
